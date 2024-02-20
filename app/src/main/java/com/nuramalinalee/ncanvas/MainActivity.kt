@@ -1,4 +1,4 @@
-package com.nuramalinalee.myportfolio
+package com.nuramalinalee.ncanvas
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
@@ -9,7 +9,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
-import com.nuramalinalee.myportfolio.databinding.ActivityMainBinding
+import com.nuramalinalee.ncanvas.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

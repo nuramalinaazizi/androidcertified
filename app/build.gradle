@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.nuramalinalee.myportfolio'
+    namespace 'com.nuramalinalee.ncanvas'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.nuramalinalee.myportfolio"
+        applicationId 'com.nuramalinalee.ncanvas'
         minSdk 26
         targetSdk 34
         versionCode 1
