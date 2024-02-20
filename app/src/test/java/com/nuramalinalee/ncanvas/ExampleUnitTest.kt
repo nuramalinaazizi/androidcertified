@@ -1,4 +1,4 @@
-package com.nuramalinalee.myportfolio
+package com.nuramalinalee.ncanvas
 
 import org.junit.Test
 

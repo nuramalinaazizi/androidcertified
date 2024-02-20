@@ -1,4 +1,4 @@
-package com.nuramalinalee.myportfolio
+package com.nuramalinalee.ncanvas
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.nuramalinalee.myportfolio.databinding.FragmentFirstBinding
+import com.nuramalinalee.ncanvas.databinding.FragmentFirstBinding
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.

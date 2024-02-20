@@ -1,4 +1,4 @@
-package com.nuramalinalee.myportfolio
+package com.nuramalinalee.ncanvas
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
