@@ -1,15 +1,17 @@
-package com.nuramalinalee.ncanvas
+package com.nuramalinalee.ncanvas.ui
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
+import com.google.android.material.snackbar.Snackbar
+import com.nuramalinalee.ncanvas.R
 import com.nuramalinalee.ncanvas.databinding.ActivityMainBinding
+import com.nuramalinalee.ncanvas.util.VersionUtil
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,6 +33,9 @@ class MainActivity : AppCompatActivity() {
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
+        }
+        applicationContext?.let {
+            binding.tvAppVersion.text = VersionUtil().getCurrentVersion(it)
         }
     }
 
