@@ -34,7 +34,7 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonFirst.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstToSecond)
+            findNavController().navigate(R.id.admobFragment)
         }
     }
 

@@ -18,7 +18,7 @@ class PizzaOrderScheduleFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentPizzaOrderScheduleBinding.inflate(inflater, container, false)
         return binding.root
     }
