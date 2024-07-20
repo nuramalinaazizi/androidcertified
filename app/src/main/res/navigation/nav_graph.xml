@@ -67,5 +67,10 @@
     <fragment
         android:id="@+id/PizzaOrderScheduleFragment"
         android:name="com.nuramalinalee.ncanvas.ui.assignment.PizzaOrderScheduleFragment"
-        tools:layout="@layout/fragment_pizza_order_schedule"></fragment>
+        tools:layout="@layout/fragment_pizza_order_schedule" />
+    <fragment
+        android:id="@+id/admobFragment"
+        android:name="com.nuramalinalee.ncanvas.ui.admob.AdmobFragment"
+        android:label="@string/admob_fragment_label"
+        tools:layout="@layout/fragment_admob" />
 </navigation>

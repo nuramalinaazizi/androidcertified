@@ -6,8 +6,10 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="third_fragment_label">Third Fragment</string>
     <string name="forth_fragment_label">Forth Fragment</string>
+    <string name="admob_fragment_label">Admob Fragment</string>
     <string name="next">Next</string>
     <string name="go_to_pizza">Go to pizza scheduler</string>
+    <string name="go_to_admob">Go to AdMob</string>
     <string name="same">Same</string>
     <string name="previous">Previous</string>
 
