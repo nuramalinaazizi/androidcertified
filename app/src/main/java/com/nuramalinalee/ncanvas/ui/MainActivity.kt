@@ -9,10 +9,14 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.google.android.gms.ads.MobileAds
 import com.google.android.material.snackbar.Snackbar
 import com.nuramalinalee.ncanvas.R
 import com.nuramalinalee.ncanvas.databinding.ActivityMainBinding
 import com.nuramalinalee.ncanvas.util.VersionUtil
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,6 +41,12 @@ class MainActivity : AppCompatActivity() {
         }
         applicationContext?.let {
             binding.tvAppVersion.text = VersionUtil().getCurrentVersion(it)
+        }
+
+        val backgroundScope = CoroutineScope(Dispatchers.IO)
+        backgroundScope.launch {
+            // Initialize the Google Mobile Ads SDK on a background thread.
+            MobileAds.initialize(this@MainActivity)
         }
     }
 
